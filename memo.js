@@ -73,9 +73,9 @@ if (paire.length==2){
 }}};
 function myfunction() {
     setTimeout(function () {
-        alert('fin')
+        alert('fin du game bande de cons')
 
-    },5000);}
+    },3000);}
 
 
 

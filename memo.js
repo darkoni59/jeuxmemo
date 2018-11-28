@@ -220,7 +220,7 @@ document.getElementById("play").addEventListener("click",function()
 //score
 function score() {
 
-    if (nbrpaire==1){
+    if (nbrpaire==0){
        document.getElementById("score").innerHTML ="bravo";
         document.getElementById("score").style.display="block";
         document.getElementById("tapis").style.display="none";

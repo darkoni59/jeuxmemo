@@ -28,16 +28,18 @@ header{
 }
 #score{
 
-    width: 25%;
-    height: 15%;
+    width: 30%;
+    height: 1000px;
     text-align: center;
     font-family: "Arial Black";
     font-size: 50px;
-border: solid black;
+
     background-image: url("https://image.myanimelist.net/ui/OK6W_koKDTOqqqLDbIoPAlJR0BTB7CcibO4mzLhD-Q4");
     display:none;
     background-repeat: no-repeat;
-    position: center;
+    margin: auto;
+
+
 }
 button{
     left:  100%;

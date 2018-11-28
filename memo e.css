@@ -1,0 +1,34 @@
+img{
+    width: 150px;
+    position: relative;
+    left: 25%;
+
+
+}
+body{
+   background-color: blueviolet;
+    width: 100em;
+    height: 100em;
+
+}
+header{
+    position: relative;
+    left: 20%;
+
+
+}
+#timer{
+    display:inline-flex;
+    text-align: center;
+
+}
+.timmmer{
+    text-align: center;
+
+}
+#score{
+
+    width: 100%;
+    height: 100%;
+
+}

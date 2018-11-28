@@ -220,11 +220,10 @@ document.getElementById("play").addEventListener("click",function()
 //score
 function score() {
 
-    if (nbrpaire==6){
+    if (nbrpaire==1){
        document.getElementById("score").innerHTML ="bravo";
         document.getElementById("score").style.display="block";
-        document.getElementById("tapis").style.display="none"
-
+        document.getElementById("tapis").style.display="none";
     }
 
 }

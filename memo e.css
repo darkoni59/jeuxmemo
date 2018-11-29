@@ -1,8 +1,8 @@
 
 img{
-    width: 25vh;
+    width: 20vh;
     position: relative;
-    left: 25%;
+
 
 
 
@@ -17,7 +17,7 @@ header{
     left: 20%;
     color: white;
     z-index: 2;
-    background-image: url("https://wiictordesign.com/wp-content/uploads/2017/03/HS-1-830x498.jpg");
+
     height: 20px;
     width: 50%;
 
@@ -33,17 +33,19 @@ header{
 }
 #score{
 
-    width: 100vh;
-    height: 127vh;
+
+    width: 50vw;
+    height: 50vh;
     text-align: center;
-    font-family: "Arial Black";
-    font-size: 10vw;
+
+    font-size: 9vw;
 color: black;
-    background-image: url("https://image.myanimelist.net/ui/OK6W_koKDTOqqqLDbIoPAlJR0BTB7CcibO4mzLhD-Q4");
+    background-image: url("http://i1.wp.com/metatrone.fr/wp-content/uploads/2016/03/XU2PX64SOIQV1457671700555.gif?resize=500%2C256");
     display:none;
     background-repeat: no-repeat;
-    background-size: 100vh;
+    background-size: 100%;
     margin: auto;
+
 
 
 }
@@ -123,7 +125,10 @@ button{
         font-style: italic;
         color: #777;
     }
+
 }
-#logo{
-    z-index: 0;
+#tapis{
+    margin: auto;
+    width: 80vw;
+    text-align: center;
 }

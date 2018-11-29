@@ -1,0 +1,134 @@
+
+img{
+    width: 20vh;
+    position: relative;
+
+
+
+
+}
+body{
+
+background-image: url("http://i.imgur.com/AwnKj6j.jpg");
+    color: white;
+}
+header{
+    position: relative;
+    left: 20%;
+    color: white;
+    z-index: 2;
+
+    height: 20px;
+    width: 50%;
+
+}
+#timer{
+    display:inline-flex;
+    text-align: center;
+
+}
+.timmmer{
+    text-align: center;
+
+}
+#score{
+
+
+    width: 50vw;
+    height: 50vh;
+    text-align: center;
+
+    font-size: 9vw;
+color: black;
+    background-image: url("http://i1.wp.com/metatrone.fr/wp-content/uploads/2016/03/XU2PX64SOIQV1457671700555.gif?resize=500%2C256");
+    display:none;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: auto;
+
+
+
+}
+button{
+    left:  10vh;
+    z-index: 1;
+}
+@media (max-width: 640px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    /* passer body (et tous les éléments de largeur fixe) en largeur automatique */
+
+    body {
+        width: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* fixer une largeur maximale de 100% aux éléments potentiellement problématiques */
+
+    img{width: 10vh}
+
+
+
+ {
+        max-width: 100%;
+    }
+
+    /* conserver le ratio des images */
+
+    img {
+        height: auto;
+    }
+
+    /* gestion des mots longs */
+
+    textarea,
+    table,
+    td,
+    th,
+    code,
+    pre,
+    samp {
+        -webkit-hyphens: auto; /* césure propre */
+        -moz-hyphens: auto;
+        hyphens: auto;
+        word-wrap: break-word; /* passage à la ligne forcé */
+    }
+
+    code,
+    pre,
+    samp {
+        white-space: pre-wrap; /* passage à la ligne spécifique pour les éléments à châsse fixe */
+    }
+
+    /* Passer à une seule colonne (à appliquer aux éléments multi-colonnes) */
+
+    .element1,
+    .element2 {
+        float: none;
+        width: auto;
+    }
+
+    /* masquer les éléments superflus */
+
+    .hide_mobile {
+        display: none !important;
+    }
+
+    /* Un message personnalisé */
+
+    body:before {
+        display: block;
+        text-align: center;
+        font-style: italic;
+        color: #777;
+    }
+
+}
+#tapis{
+    margin: auto;
+    width: 80vw;
+    text-align: center;
+}

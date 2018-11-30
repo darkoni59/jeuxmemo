@@ -11,6 +11,8 @@ body{
 
 background-image: url("http://i.imgur.com/AwnKj6j.jpg");
     color: white;
+    text-align: center;
+    font-family: "Arial";
 }
 header{
     position: relative;

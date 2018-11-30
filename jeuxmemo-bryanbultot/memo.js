@@ -50,7 +50,7 @@ function affichecarte(CarteNo) {
         
     }
 }
-//random place for card
+//random place for card and condition for card if a same card are same
 function initialgame() {
     for (var s=dosdecartes.length-1;s>=1;s--){
         var hasard=Math.floor(Math.random()*(s+1));
@@ -66,7 +66,7 @@ function initialgame() {
 
 
 
-//function for pair card and banish this is true
+//function for pair card and banish this is same card
 function ProgrammeJeux(CarteNo) {
     if (paire.length<2){
         if (carteflip[CarteNo]== 0){
@@ -205,7 +205,7 @@ var stopCountDown = function() {
 };
 
 
-//input pause
+//input pause but is not use for the project
 var stopButton = document.getElementById("pause");
 
 stopButton.addEventListener("click", stopCountDown);
@@ -217,7 +217,7 @@ document.getElementById("play").addEventListener("click",function()
     countDown();
 
 });
-//score
+//score if you win open a new window with the win message
 function score() {
 
     if (nbrpaire==6){
